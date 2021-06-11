@@ -13,6 +13,8 @@
 		3249F6FB2673A7A000E5142E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3249F6FA2673A7A000E5142E /* Preview Assets.xcassets */; };
 		3249F7062673A7A000E5142E /* HealthScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3249F7052673A7A000E5142E /* HealthScoreTests.swift */; };
 		3249F7112673A7A000E5142E /* HealthScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3249F7102673A7A000E5142E /* HealthScoreUITests.swift */; };
+		3249F71F2673AADD00E5142E /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3249F71E2673AADD00E5142E /* IndicatorView.swift */; };
+		3249F7212673BB9700E5142E /* CurrentDatePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3249F7202673BB9700E5142E /* CurrentDatePublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		3249F70C2673A7A000E5142E /* HealthScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3249F7102673A7A000E5142E /* HealthScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScoreUITests.swift; sourceTree = "<group>"; };
 		3249F7122673A7A000E5142E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3249F71E2673AADD00E5142E /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		3249F7202673BB9700E5142E /* CurrentDatePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDatePublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				3249F6F32673A79E00E5142E /* HealthScoreApp.swift */,
 				3249F6F52673A79E00E5142E /* ContentView.swift */,
+				3249F7202673BB9700E5142E /* CurrentDatePublisher.swift */,
+				3249F71E2673AADD00E5142E /* IndicatorView.swift */,
 				3249F6F72673A7A000E5142E /* Assets.xcassets */,
 				3249F6FC2673A7A000E5142E /* Info.plist */,
 				3249F6F92673A7A000E5142E /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3249F7212673BB9700E5142E /* CurrentDatePublisher.swift in Sources */,
 				3249F6F62673A79E00E5142E /* ContentView.swift in Sources */,
+				3249F71F2673AADD00E5142E /* IndicatorView.swift in Sources */,
 				3249F6F42673A79E00E5142E /* HealthScoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

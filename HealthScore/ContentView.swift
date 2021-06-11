@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var currentDatePublisher = CurrentDatePublisher()
+
+    let timer = Timer.publish(
+        every: 1,
+        on: .main,
+        in: .common
+    ).autoconnect()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            IndicatorView(
+                startDate: Date().addingTimeInterval(TimeInterval(-1)),
+                endDate: Date().addingTimeInterval(TimeInterval(60))
+            )
+        }.environmentObject(currentDatePublisher)
     }
 }
 
